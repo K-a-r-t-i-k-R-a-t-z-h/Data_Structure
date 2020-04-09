@@ -100,7 +100,6 @@ class Tree_func
 			    System.out.println(findsmall(r.root));
 			    System.out.println(findlar(r.root));
 			    int k=sc.nextInt();
-			    //System.out.println(k);
 			    find_k_ele(r.root,k);
 			    System.out.println(depth(r.root));
         }
