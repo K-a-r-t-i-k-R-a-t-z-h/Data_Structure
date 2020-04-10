@@ -32,11 +32,9 @@ Arrays.fill(visited,false);
 	int i=5;
 			while(i-->0)
 			{  
-               
-              
-               int ind=sc.nextInt();
-               int val=sc.nextInt();
-               ll[ind].add(val);
+                          int ind=sc.nextInt();
+                          int val=sc.nextInt();
+                          ll[ind].add(val);
 			}
 			unti(sc.nextInt(),visited);
 	}
