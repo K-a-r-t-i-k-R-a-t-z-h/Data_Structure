@@ -1,18 +1,16 @@
 import java.util.*;
-class Graph_Dfs
+class DFS
 {
 static LinkedList<Integer> ll[];
-int V;
 static Boolean visited[];
-Gra(int v)
-{
-    V=v;
-	ll=new LinkedList[v];
-	for(int i=0;i<v;++i)
-	ll[i]=new LinkedList();
-visited=new Boolean[v];
-Arrays.fill(visited,false);
-}
+		DFS(int v)
+		{
+		ll=new LinkedList[v];
+		for(int i=0;i<v;++i)
+		ll[i]=new LinkedList();
+		visited=new Boolean[v];
+		Arrays.fill(visited,false);
+		}
 
 		static void unti(int g,Boolean visited[])
 		{
@@ -28,8 +26,8 @@ Arrays.fill(visited,false);
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
-	Gra g=new Gra(4);
-	int i=5;
+	        DFS g=new DFS(4);
+	        int i=5;
 			while(i-->0)
 			{  
                           int ind=sc.nextInt();
