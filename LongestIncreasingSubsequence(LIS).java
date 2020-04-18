@@ -32,7 +32,12 @@ static int tail[];
 	for(int i=0;i<n;i++)
 	arr[i]=sc.nextInt();
 	long1(arr,n-1);
-	for(int i=0;i<n;i++)
-	System.out.print(tail[i]+" ");
+	int max=Integer.MIN_VALUE;
+		for(int i=0;i<n;i++)
+		{
+          if(max<tail[i])
+          	max=tail[i];
+		}
+		System.out.println(max);
 	}
 }
