@@ -31,7 +31,6 @@ static char arr1[];
 
 
 output
-
 AGGTAB
 GXTXAYB
 4
