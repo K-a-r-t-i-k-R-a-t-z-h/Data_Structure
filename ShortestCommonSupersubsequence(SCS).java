@@ -32,3 +32,8 @@ static char arr1[];
     System.out.println((inp.length()+inp1.length())-val);
 	}
 }
+
+output:
+AGGTAB
+GXTXAYB
+9
