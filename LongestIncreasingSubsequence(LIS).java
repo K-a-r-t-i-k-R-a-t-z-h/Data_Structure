@@ -41,3 +41,8 @@ static int tail[];
 		System.out.println(max);
 	}
 }
+
+output:
+5
+10 22 9 33 21
+3
