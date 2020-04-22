@@ -1,10 +1,11 @@
+//Finding shortest path from source to all node....using Dijkstra's algorithm
 import java.util.*;
 class Short
 {
 static int graph[][];
 static int n;
     
-    static int min(int dis[],Boolean visited[])
+    static int min(int dis[],Boolean visited[])       //Finding Minimum value Index
     {
 
     int min=Integer.MAX_VALUE;
@@ -19,8 +20,8 @@ static int n;
 	    return min_index;
     }
 
-    static void diji(int m,int src)
-    {
+    static void diji(int m,int src)           //applying Dijkstra's Algorithm
+    { 
     int dis[]=new int[m];
     Boolean visited[]=new Boolean[m];
     Arrays.fill(dis,Integer.MAX_VALUE);
@@ -63,3 +64,16 @@ static int n;
 	diji(n+1,src);
 	}
 }
+
+
+output:
+3
+3
+1 2 10
+1 3 2
+3 2 2
+1
+0 2147483647
+1 0
+2 4
+3 2
