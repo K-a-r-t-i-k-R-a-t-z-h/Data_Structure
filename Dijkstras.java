@@ -41,7 +41,7 @@ static int n;
 
 		    }
 
-		    for(int i=0;i<m;i++)
+		    for(int i=1;i<m;i++)
 		    	System.out.println(i+" "+dis[i]);
     }
 	public static void main(String args[])
@@ -73,7 +73,6 @@ output:
 1 3 2
 3 2 2
 1
-0 2147483647
 1 0
 2 4
 3 2
