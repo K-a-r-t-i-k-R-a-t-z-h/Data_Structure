@@ -1,3 +1,4 @@
+//Merge sort is O(n logn) for all case(best,worst)
 import java.util.Scanner;
 class Merge_sort
 {   
@@ -63,3 +64,9 @@ class Merge_sort
     	System.out.print(arr[i]+" ");
     	}
 }
+
+output:
+
+5
+3 5 8 1 2
+1 2 3 5 8
